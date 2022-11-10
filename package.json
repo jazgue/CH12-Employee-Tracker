@@ -1,0 +1,25 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "a command line application to manage a company's employee database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazgue/CH12-Employee-Tracker.git"
+  },
+  "author": "Jazmin Guerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jazgue/CH12-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/jazgue/CH12-Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^9.1.4",
+    "mysql": "^2.18.1"
+  }
+}
